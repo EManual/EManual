@@ -10,7 +10,6 @@
 
     <link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link href="./static/css/style.css" rel="stylesheet">
-    <!-- <link href="./static/css/ionicon.css" rel="stylesheet"> -->
     <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <script>
     var _hmt = _hmt || [];
@@ -32,13 +31,9 @@
                     <a class="logo" href="/"></a>
                 </div>
                 <div class="col-xs-2 col-sm-6 col-md-8">
-                    <!-- <nav id="mobile-menu-icon" class="mobile-menu-icon desktop-menu hidden-md hidden-lg">
-                            <a class="hamburger" href="#"><span class="ion-navicon"></span></a>
-                        </nav> -->
                     <nav class="desktop-menu">
-                        <a href="http://www.iemanual.com/blog">Blog</a>
+                        <a href="http://www.iemanual.com/blog" onclick="_hmt.push(['_trackEvent','goBlog','click',])">Blog</a>
                     </nav>
-
                 </div>
             </div>
         </div>
@@ -52,7 +47,8 @@
                         <h1>人人编程 开拓你的思考方式</h1>
                         <h1>轻如蝉翼 随时随地学习编程</h1>
                         <p>
-                            <a class="btn btn-lg " href="http://emanual.github.io/md-release/dist/EManual.apk">下载最新版
+                            <a class="btn btn-lg " href="http://emanual.github.io/md-release/dist/EManual.apk"
+                            onclick="_hmt.push(['_trackEvent','downloadFromHomePage','click',])">下载最新版
                                 <span class="ion-social-android"></span><small id="text-version"> v2.1.1</small></a>
                         </p>
                     </div>
@@ -114,14 +110,16 @@
                     <div class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-4 col-md-3 ">
                         <div class="project">
                             <div class="thumbnail animated">
-                                <img src="./static/images/java.png" alt="FeedHub project thumbnail" />
+                                <img src="./static/images/java.png" alt="FeedHub project thumbnail"
+                                onclick="_hmt.push(['_trackEvent','Category','click','Java'])" />
                             </div>
                         </div>
                     </div>
                     <div class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-4 col-md-3 ">
                         <div class="project">
                             <div class="thumbnail animated">
-                                <img src="./static/images/android.png" alt="Pushh project thumbnail" />
+                                <img src="./static/images/android.png" alt="Pushh project thumbnail"
+                                onclick="_hmt.push(['_trackEvent','Category','click','Android'])" />
                             </div>
 
                         </div>
@@ -129,7 +127,8 @@
                     <div class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-4 col-md-3 hidden-xs">
                         <div class="project">
                             <div class="thumbnail animated">
-                                <img src="./static/images/php.png" alt="Dareboost project thumbnail" />
+                                <img src="./static/images/php.png" alt="Dareboost project thumbnail" 
+                                onclick="_hmt.push(['_trackEvent','Category','click','PHP'])"/>
                             </div>
 
                         </div>
@@ -137,7 +136,8 @@
                     <div class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-4 col-md-3 hidden-sm hidden-xs">
                         <div class="project">
                             <div class="thumbnail animated">
-                                <img src="./static/images/python.png" alt="Evotion project thumbnail" />
+                                <img src="./static/images/python.png" alt="Evotion project thumbnail" 
+                                onclick="_hmt.push(['_trackEvent','Category','click','Python'])"/>
                             </div>
 
                         </div>
